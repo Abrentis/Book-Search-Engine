@@ -5,9 +5,9 @@ const typeDefs = `
 
     type Mutation {
         login(email: String!, password: String!): Auth
-        createUser(username: String!, email: String!, password: String!): Auth
+        addUser(username: String!, email: String!, password: String!): Auth
         saveBook(bookData: BookInput!): User
-        deleteBook(bookId: String!): User
+        removeBook(bookId: String!): User
     }
 
     type Auth {
@@ -41,4 +41,4 @@ const typeDefs = `
         link: String
     }
 `;
-moduke.exports = typeDefs;
+module.exports = typeDefs;
