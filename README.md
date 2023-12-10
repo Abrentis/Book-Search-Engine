@@ -6,7 +6,9 @@ Search engines often try to extend their searching capabilities to as many topic
 
 ## Usage
 
-Check out my webiste here! 
+Check out my website here!
+
+https://gentle-headland-21144-2ea3df068363.herokuapp.com/
 
 Users have the ability to create their own profiles and search books using this app. Here's an example of what the application page looks like:
 
